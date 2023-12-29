@@ -8,7 +8,7 @@ const props = defineProps({
 <template>
     <div class="blog-card-citation">
         <a href="#" class="blog-card-citation__avatar">
-            <img :src="`../src/assets/${props.author_avatar}`" :alt="props.author_name" />
+            <img :src="`./${props.author_avatar}`" :alt="props.author_name" />
         </a>
         <a href="#" class="blog-card-citation__author">
             {{ props.author_name }}
