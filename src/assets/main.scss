@@ -1,0 +1,8 @@
+@import "./base.scss";
+
+.wrapper {
+    display: block;
+    width: calc(100% - 3rem);
+    max-width: 1440px;
+    margin: 0 auto;
+}
