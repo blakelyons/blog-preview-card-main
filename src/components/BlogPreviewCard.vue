@@ -52,6 +52,7 @@ const blogCards = ref([
     border-radius: var(--global-border-radius);
     position: relative;
     padding: var(--card-padding);
+    border: 2px solid var(--clr-black);
 
     @media screen and (min-width: 640px) {
         width: 380px;
