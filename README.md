@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [https://github.com/blakelyons/blog-preview-card-main](https://github.com/blakelyons/blog-preview-card-main)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [https://blog-preview-card-main-1jp.pages.dev/](https://blog-preview-card-main-1jp.pages.dev/)
 
 ## My process
 
