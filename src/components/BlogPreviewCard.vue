@@ -33,9 +33,9 @@ const blogCards = ref([
             <div class="blog-card__date">Published {{ blogCard.date }}</div>
         </div>
         <div class="blog-card__details">
-            <h2>
+            <h1 class="h2">
                 <a :href="blogCard.link">{{ blogCard.title }}</a>
-            </h2>
+            </h1>
             <p>{{ blogCard.description }}</p>
         </div>
         <BlogPreviewCardCitation :author_name="blogCard.author_name" :author_avatar="blogCard.author_avatar" />
@@ -107,7 +107,8 @@ const blogCards = ref([
 }
 
 .blog-card__details {
-    h2 {
+    h1,
+    .h2 {
         a {
             font-weight: inherit;
         }

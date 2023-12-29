@@ -3,9 +3,7 @@ import BlogPreviewCard from "./components/BlogPreviewCard.vue";
 </script>
 
 <template>
-    <div class="wrapper">
-        <BlogPreviewCard />
-    </div>
+    <BlogPreviewCard />
 </template>
 
 <style scoped></style>
